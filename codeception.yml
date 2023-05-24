@@ -1,0 +1,18 @@
+paths:
+    tests: tests
+    output: tests/_output
+    data: tests/_data
+    support: tests/_support
+    envs: tests/_envs
+settings:
+    bootstrap: _bootstrap.php
+    suite_class: \PHPUnit\Framework\TestSuite
+    colors: true
+modules:
+    enabled:
+        - WebDriver:
+            url: 'https://seusite.com' # substitua pela URL do seu site
+            browser: 'chrome' # ou 'firefox'
+            host: '127.0.0.1'
+            port: 4444
+            window_size: 1920x1080
