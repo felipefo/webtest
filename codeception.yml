@@ -11,7 +11,7 @@ settings:
 modules:
     enabled:
         - WebDriver:
-            url: 'https://seusite.com' # substitua pela URL do seu site
+            url: 'https://ifes.edu.br' 
             browser: 'chrome' # ou 'firefox'
             host: '127.0.0.1'
             port: 4444
