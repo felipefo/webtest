@@ -9,5 +9,4 @@ Repository for demonstrate how to use codecept with chatgpt for building automat
 
 Digite no chatgpt para gerar um tutorial de instalacao:
 
-'''Prepare um tutorial utilizar o codecept em php para testar telas de uma pagina web com o selenium rodando no github actions tirando um print screen dos passos caso de alguma coisa errada
-'''
+Prepare um tutorial utilizar o codecept em php para testar telas de uma pagina web com o selenium rodando no github actions tirando um print screen dos passos caso de alguma coisa errada
