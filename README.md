@@ -9,14 +9,15 @@ Repository for demonstrate how to use codecept with chatgpt for building automat
 
 
 Crei o codigo do caso de teste no codectp em php que execute teste os seguintes passos:
+<br>
+**1)** Acesse a url <br>
+**2)** https://ifes.edu.br/	<br>		
+**3)** Clique no link "contato"	<br>		
+**4)** 0Expandir o item "Reitoria"	<br>		
+**5)** Verifique se existe um telefone no item Recepção "Gabinete do Reitor" <br>
 
-1)Acesse a url 
-2)https://ifes.edu.br/			
-3)Clique no link "contato"			
-4)0Expandir o item "Reitoria"			
-5)Verifique se existe um telefone no item Recepção "Gabinete do Reitor"	
-
-''''
+# Código gerado pelo chatgpt
+```
 <?php
 class ContatoCest
 {
@@ -31,4 +32,5 @@ class ContatoCest
         $I->assertNotEmpty($telefone);
     }
 }
+```
 
