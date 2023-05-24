@@ -7,6 +7,31 @@ Repository for demonstrate how to use codecept with chatgpt for building automat
 
 # Utilizando o chatgpt para gerar o projeto de TESTE
 
-**Digite no chatgpt para gerar um tutorial de instalação:**
+## Input para o chatgpt
+Crei o codigo do caso de teste no codectp em php que execute teste os seguintes passos:
+<br>
+**1)** Acesse a url <br>
+**2)** https://ifes.edu.br/	<br>		
+**3)** Clique no link "contato"	<br>		
+**4)** 0Expandir o item "Reitoria"	<br>		
+**5)** Verifique se existe um telefone no item Recepção "Gabinete do Reitor" <br>
 
-Prepare um tutorial utilizar o codecept em php para testar telas de uma pagina web com o selenium rodando no github actions tirando um print screen dos passos caso de alguma coisa errada
+
+## Código gerado pelo chatgpt
+```
+<?php
+class ContatoCest
+{
+    public function verificarTelefoneReitoria(AcceptanceTester $I)
+    {
+        $I->amOnPage('https://ifes.edu.br/');
+        $I->click('Contato');
+        $I->waitForElementVisible('.elementor-widget-container .elementor-accordion-item');
+        $I->click('.elementor-widget-container .elementor-accordion-item');
+        $I->waitForElementVisible('.elementor-widget-container .elementor-accordion-item-content');
+        $telefone = $I->grabTextFrom('.elementor-widget-container .elementor-accordion-item-content .recepcao .telefone');
+        $I->assertNotEmpty($telefone);
+    }
+}
+```
+
