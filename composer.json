@@ -3,7 +3,8 @@
         "codeception/codeception": "^5.0",
 		"symfony/console": "^5.0",
 		
-        "php-webdriver/webdriver": "*"
+        "php-webdriver/webdriver": "*",
+        "codeception/module-phpbrowser": "^2.5"
     },
 	"require": {
 		"symfony/event-dispatcher": "^4.0",
