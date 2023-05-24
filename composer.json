@@ -3,7 +3,7 @@
         "codeception/codeception": "*",
 		"symfony/console": "^5.0",
 		
-        "facebook/webdriver": "^1.1"
+        "php-webdriver/webdriver": "*"
     },
 	"require": {
 		"symfony/event-dispatcher": "^4.0",
