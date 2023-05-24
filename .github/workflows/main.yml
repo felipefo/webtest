@@ -31,5 +31,5 @@ jobs:
           path: tests/_output
           retention-days: 2
       - name: Download a single artifact
-          uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v3
 
