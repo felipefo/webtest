@@ -23,8 +23,7 @@ jobs:
           extensions: xdebug
           
       - name: Configure Xdebug
-        run: echo "xdebug.mode = develop" >> $GITHUB_WORKSPACE/.github/actions.ini        
-
+        run: echo "xdebug.mode = develop" >> $GITHUB_WORKSPACE/.github/actions-xdebug.ini
 
       - name: Instalar dependências
         run: composer install
