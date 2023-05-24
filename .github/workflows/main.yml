@@ -20,6 +20,11 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.1'
+          extensions: xdebug
+          
+      - name: Configure Xdebug
+        run: echo "xdebug.mode = develop" >> $PHP_INI_DIR/conf.d/actions.ini   
+
 
       - name: Instalar dependências
         run: composer install
