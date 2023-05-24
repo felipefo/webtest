@@ -7,7 +7,7 @@ Repository for demonstrate how to use codecept with chatgpt for building automat
 
 # Utilizando o chatgpt para gerar o projeto de TESTE
 
-
+## Input para o chatgpt
 Crei o codigo do caso de teste no codectp em php que execute teste os seguintes passos:
 <br>
 **1)** Acesse a url <br>
@@ -16,7 +16,8 @@ Crei o codigo do caso de teste no codectp em php que execute teste os seguintes 
 **4)** 0Expandir o item "Reitoria"	<br>		
 **5)** Verifique se existe um telefone no item Recepção "Gabinete do Reitor" <br>
 
-# Código gerado pelo chatgpt
+
+## Código gerado pelo chatgpt
 ```
 <?php
 class ContatoCest
