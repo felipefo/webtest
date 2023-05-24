@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a26907a158707fd0c282916810e32e28",
+    "content-hash": "461a0c83c2d609be66f95868304ae260",
     "packages": [
         {
             "name": "symfony/browser-kit",

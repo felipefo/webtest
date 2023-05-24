@@ -1,6 +1,6 @@
 {
     "require-dev": {
-        "codeception/codeception": "^2.1",
+        "codeception/codeception": "*",
 		"symfony/console": "^5.0",
 		
         "facebook/webdriver": "^1.1"
