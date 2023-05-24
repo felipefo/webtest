@@ -23,7 +23,7 @@ jobs:
           extensions: xdebug
           
       - name: Configure Xdebug
-        run: echo "xdebug.mode = develop" >> $PHP_INI_DIR/conf.d/actions.ini   
+        run: echo "xdebug.mode = develop" >> $GITHUB_WORKSPACE/.github/actions.ini        
 
 
       - name: Instalar dependências
