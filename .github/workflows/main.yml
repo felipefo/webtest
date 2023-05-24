@@ -32,4 +32,8 @@ jobs:
           retention-days: 2
       - name: Download a single artifact
         uses: actions/download-artifact@v3
+        
+    artifacts:
+      paths:
+        - tests/_output
 
