@@ -1,8 +1,8 @@
 
 <?php
-class BuscarFelipeCest
+class ContatoCest
 {
-    public function buscarFelipeNoGoogle(AcceptanceTester $I)
+    public function verificarTelefoneReitoria(AcceptanceTester $I)
     {
         $I = new AcceptanceTester($scenario);
 		$I->amOnPage('www.google.com');
