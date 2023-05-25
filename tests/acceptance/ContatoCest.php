@@ -7,7 +7,7 @@ class ContatoCest
         $I->amOnPage('https://ifes.edu.br/');
         $I->click('Contato');
 		//$I->seeCurrentURLEquals('/contato');
-		$I->wait(30);
+		//$I->wait(30);
 		$I->see('Recepção Gabinete do Reitor');
 		$I->see('3357-7500');
 		
