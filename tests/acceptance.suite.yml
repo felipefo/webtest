@@ -9,4 +9,4 @@ modules:
   enabled:
     - WebDriver:
         url: 'www.google.com'
-        browser: firefox
+        browser: chrome

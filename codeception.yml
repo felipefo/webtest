@@ -13,7 +13,7 @@ modules:
     enabled:
         - WebDriver:
             url: 'www.google.com' 
-            browser: 'firefox' # ou 'firefox'
+            browser: 'chrome' # ou 'firefox'
             host: '127.0.0.1'
             port: 4444
             window_size: 1920x1080
