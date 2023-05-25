@@ -13,7 +13,7 @@ Crei o codigo do caso de teste no codectp em php que execute teste os seguintes 
 **1)** Acesse a url <br>
 **2)** https://ifes.edu.br/	<br>		
 **3)** Clique no link "contato"	<br>		
-**4)** 0Expandir o item "Reitoria"	<br>		
+**4)** Expandir o item "Reitoria"	<br>		
 **5)** Verifique se existe um telefone no item Recepção "Gabinete do Reitor" <br>
 
 
