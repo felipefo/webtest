@@ -4,7 +4,7 @@ class ContatoCest
 {
     public function verificarTelefoneReitoria(AcceptanceTester $I)
     {
-        $I->amOnPage('https://ifes.edu.br/');
+        //$I->amOnPage('https://ifes.edu.br/');
         //$I->click('Contato');
         //$I->waitForElement('.elementor-widget-container .elementor-accordion-item' , 30);
         //$I->click('.elementor-widget-container .elementor-accordion-item');
