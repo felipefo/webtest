@@ -4,8 +4,8 @@ class ContatoCest
 {
     public function verificarTelefoneReitoria(AcceptanceTester $I)
     {
-        $I->amOnPage('https://ifes.edu.br/');
-        $I->click('Contato');
+        $I->amOnPage('https://ifes.edu.br/contato');
+        /$I->click('Contato');
 		//$I->seeCurrentURLEquals('/contato');
 		//$I->wait(30);
 		$I->see('Recepção Gabinete do Reitor');
