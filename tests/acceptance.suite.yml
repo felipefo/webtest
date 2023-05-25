@@ -8,5 +8,5 @@ actor: AcceptanceTester
 modules:
   enabled:
     - WebDriver:
-        url: 'https://ifes.edu.br/'
-        browser: chrome
+        url: 'www.google.com'
+        browser: firefox

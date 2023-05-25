@@ -12,8 +12,8 @@ settings:
 modules:
     enabled:
         - WebDriver:
-            url: 'https://ifes.edu.br' 
-            browser: 'chorme' # ou 'firefox'
+            url: 'www.google.com' 
+            browser: 'firefox' # ou 'firefox'
             host: '127.0.0.1'
             port: 4444
             window_size: 1920x1080
