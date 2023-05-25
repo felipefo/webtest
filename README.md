@@ -13,7 +13,7 @@ Crei o codigo do caso de teste no codectp em php que execute teste os seguintes 
 **1)** Acesse a url <br>
 **2)** https://ifes.edu.br/	<br>		
 **3)** Clique no link "contato"	<br>		
-**4)** 0Expandir o item "Reitoria"	<br>		
+**4)** Expandir o item "Reitoria"	<br>		
 **5)** Verifique se existe um telefone no item Recepção "Gabinete do Reitor" <br>
 
 
@@ -35,3 +35,18 @@ class ContatoCest
 }
 ```
 
+## Código alterado do chatgpt para poder funcionar 
+
+```
+<?php
+class ContatoCest
+{
+    public function verificarTelefoneReitoria(AcceptanceTester $I)
+    {
+        $I->amOnPage('https://ifes.edu.br/contato');
+		$I->see('Recepção Gabinete do Reitor');
+		$I->see('3357-7500');
+
+    }
+}
+```
