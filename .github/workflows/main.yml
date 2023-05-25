@@ -40,12 +40,14 @@ jobs:
         run: ./vendor/bin/codecept run acceptance --html
 
       - name: Enviar screenshots em caso de falhas
+        if: always()
         uses: actions/upload-artifact@v3
         with:
           name: Screenshots
           path: tests/_output
           retention-days: 2
       - name: Download a single artifact
+        if: always()
         uses: actions/download-artifact@v3
 
 
