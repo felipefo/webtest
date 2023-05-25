@@ -18,3 +18,5 @@ modules:
             port: 4444
             window_size: 1920x1080
             connection_timeout: 60
+
+
