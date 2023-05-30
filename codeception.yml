@@ -1,22 +1,14 @@
+namespace: Tests
+support_namespace: Support
 paths:
     tests: tests
     output: tests/_output
-    data: tests/_data
-    support: tests/_support
+    data: tests/Support/Data
+    support: tests/Support
     envs: tests/_envs
-    log: tests/_output
-settings:
-    bootstrap: _bootstrap.php
-    suite_class: \PHPUnit\Framework\TestSuite
-    colors: true
-modules:
+actor_suffix: Tester
+extensions:
     enabled:
-        - WebDriver:
-            url: 'www.google.com' 
-            browser: 'chrome' # ou 'firefox'
-            host: '127.0.0.1'
-            port: 4444
-            window_size: 1920x1080
-            connection_timeout: 60
-
+        - Codeception\Extension\RunFailed
+        - Codeception\Extension\Recorder
 

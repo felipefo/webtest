@@ -1,15 +1,8 @@
 {
     "require-dev": {
         "codeception/codeception": "^5.0",
-		"symfony/console": "^5.0",
-		
-        "php-webdriver/webdriver": "*",
-        "codeception/module-phpbrowser": "^2.5",
-        "codeception/module-webdriver": "^4.0",
-        "codeception/module-asserts": "^3.0"
-    },
-	"require": {
-		"symfony/event-dispatcher": "^4.0",
-		"symfony/browser-kit": "^4.0"
-	}
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*",
+        "codeception/module-webdriver": "^4.0"
+    }
 }
