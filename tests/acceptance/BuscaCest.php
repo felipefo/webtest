@@ -14,7 +14,7 @@ class BuscaCest
     // tests
     public function buscarResultadosNaPaginaTest(AcceptanceTester $I)
     {
-		$I->amOnPage('http://ifes.edu.br');
+		$I->amOnPage('/');
 		$I->fillField('searchword', 'edital');
 		$I->click('Buscar');
 		$I->see('resultados encontrados');
