@@ -8,6 +8,7 @@ A branch de nome "test_com_gitactions" roda o teste no git hub actions
 
 # Exemplo de teste automatizado
 
+```
 <?php
 namespace Tests\Acceptance;
 use Tests\Support\AcceptanceTester;
@@ -26,4 +27,4 @@ class BuscaCest
 		$I->see('resultados encontrados');
     }
 }
-
+```
