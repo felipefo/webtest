@@ -37,7 +37,7 @@ jobs:
         run: composer install
 
       - name: Executar testes
-        run: ./vendor/bin/codecept run acceptance --html
+        run: ./vendor/bin/codecept run --setps
 
       - name: Enviar screenshots em caso de falhas
         if: always()
