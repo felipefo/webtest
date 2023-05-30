@@ -1,6 +1,3 @@
-# Testes para Sistemas Web
-Repository for demonstrate how to use codecept with chatgpt for building automatic user interfaces tests. 
-
 # Repositorio de teste local
 A branch de nome "test_local" tem os testes do codecept para rodar localmente 
 
