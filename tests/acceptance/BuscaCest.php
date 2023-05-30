@@ -17,6 +17,6 @@ class BuscaCest
 		$I->amOnPage('/');
 		$I->fillField('searchword', 'edital');
 		$I->click('Buscar');
-		$I->see('resultados encontrados');
+		$I->see('resultados encontdos');
     }
 }
